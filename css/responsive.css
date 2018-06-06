@@ -61,7 +61,7 @@ footer {
 #videos {
 	width: 100%;
 	margin: 0 auto;
-	margin-left: 1%;
+	max-width: 960px;
 }
 iframe {
 	width: 30%;
