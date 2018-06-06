@@ -1,0 +1,583 @@
+#container {
+	width: 100%;
+	background-color: #000;
+}
+
+
+/***********SEARCH BAR**********/
+
+#search-bar {
+	width: 960px;
+	height: 90px;
+	color: #fff;
+	margin: 0 auto;
+}
+#search-bar-small {
+	max-width: 960px;
+	height: 90px;
+}
+
+.search-bar-left,
+.search-bar-left-small {
+	font-family: 'Permanent Marker', cursive;
+	float: left;
+	width: 12%;
+	margin-right: 15px;
+	position: relative;
+	top: 6%;
+}
+.search-bar-left-small {
+	width: auto;
+}
+
+.search-bar-middle,
+.search-bar-middle-small {
+	font-family: 'Permanent Marker', cursive;
+	float: left;
+	line-height: 0px;
+	width: 35%;
+	position: relative;
+	top: 28%;
+	font-size: 1.5em;
+}
+.search-bar-middle-small {
+	width: auto;
+}
+
+.search-bar-right,
+.search-bar-right-small {
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #ccc;
+	float: right;
+	line-height: 37px;
+	position: relative;
+	top: 39%;
+}
+
+.searchfield,
+.searchbutton {
+	border-radius: 5px 5px 5px 5px;
+	margin: 2px;
+}
+
+.searchbutton {
+	position: relative;
+	vertical-align: middle;
+}
+
+#search-bar a,
+#search-bar-small a {
+	color: #fff;
+}
+
+
+
+/***********NAVIGATION BAR**********/
+
+nav {
+	width: 960px;
+	color: #ccc;
+	background-color: #222;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	height: 69px;
+}
+
+.nav-articles {
+	width: 960px;
+	color: #000;
+	background-color: #ff60ba;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	height: 70px;
+}
+
+.nav-videos {
+	width: 960px;
+	color: #000;
+	background-color: #fff07b;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	height: 70px;
+}
+
+.nav-forum {
+	width: 960px;
+	color: #000;
+	background-color: #7df7a1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	height: 70px;
+}
+
+.nav-contact {
+	width: 960px;
+	color: #000;
+	background-color: #7acfe8;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	height: 70px;
+}
+
+nav li,
+.nav-articles li,
+.nav-videos li,
+.nav-forum li,
+.nav-contact li {
+	display: inline-block;
+	text-align: center;
+}
+
+nav p,
+.nav-articles p,
+.nav-videos p,
+.nav-forum p,
+.nav-contact p {
+	font-family: 'Walter Turncoat', cursive;
+}
+
+.articles-nav,
+.articles-nav-articlespage,
+.articles-nav-videospage,
+.articles-nav-forumpage,
+.articles-nav-contactpage,
+.videos-nav,
+.videos-nav-articlespage,
+.videos-nav-videospage,
+.videos-nav-forumpage,
+.videos-nav-contactpage,
+.forum-nav,
+.forum-nav-articlespage,
+.forum-nav-videospage,
+.forum-nav-forumpage,
+.forum-nav-contactpage,
+.contact-nav,
+.contact-nav-articlespage,
+.contact-nav-videospage,
+.contact-nav-forumpage,
+.contact-nav-contactpage,
+.logo-nav {
+	position: relative;
+	line-height: 0px;
+}
+
+.articles-nav,
+.articles-nav-articlespage,
+.articles-nav-videospage,
+.articles-nav-forumpage,
+.articles-nav-contactpage {
+	left: 8%;
+	top: 2px;
+}
+
+.videos-nav,
+.videos-nav-articlespage,
+.videos-nav-videospage,
+.videos-nav-forumpage,
+.videos-nav-contactpage {
+	left: 27%;
+	top: 2px;
+}
+
+.forum-nav,
+.forum-nav-articlespage,
+.forum-nav-videospage,
+.forum-nav-forumpage,
+.forum-nav-contactpage {
+	left: 46%;
+	top: 2px;
+}
+
+.contact-nav,
+.contact-nav-articlespage,
+.contact-nav-videospage,
+.contact-nav-forumpage,
+.contact-nav-contactpage {
+	left: 64%;
+	top: 2px;
+}
+
+.logo-nav {
+	left: 10.3%;
+	vertical-align: top;
+	position: relative;
+	top: -11px;
+}
+
+nav a:link,
+nav a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.nav-articles a:link,
+.nav-articles a:visited,
+.nav-videos a:link,
+.nav-videos a:visited,
+.nav-forum a:link,
+.nav-forum a:visited,
+.nav-contact a:link,
+.nav-contact a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+/***********MAIN CONTENT (HOMEPAGE) **********/
+
+#homepage-content,
+#articles-content,
+#videos-content,
+#forum-content,
+#contact-content {
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+}
+
+#homepage-content ul {
+	list-style-type: none;	
+}
+
+#homepage-content li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.articles-content {
+	background-color: #ff60ba;
+}
+
+.videos-content {
+	background-color: #fff07b;
+}
+
+.forum-content {
+	background-color: #7df7a1;
+}
+
+.contact-content{
+	background-color: #7acfe8;
+}
+
+.articles-content,
+.videos-content,
+.forum-content,
+.contact-content {
+	width: 23%;
+	height: 440px;
+	line-height: 440px;
+	margin: 0 4px;
+	overflow: hidden;
+}
+
+.articles-content img,
+.videos-content img,
+.forum-content img,
+.contact-content img {
+	vertical-align: bottom;
+}
+
+.articles-content img {
+	position: relative;
+	top: 5%;
+}
+
+.videos-content img {
+	right: 12%;
+	bottom: -1%;
+	position: relative;
+}
+
+.forum-content img {
+	position: relative;
+	right: 12%;
+}
+
+.contact-content img {
+	position: relative;
+	right: 7%;
+}
+
+
+/***********MAIN CONTENT (ARTICLES) **********/
+
+#articles-content {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#articles-filter {
+	width: 275px;
+	height: 500px;
+	float: left;
+	color: #ff60ba;
+	font-family: "Rosario", sans-serif;
+}
+
+#articles-filter ul {
+	list-style-type: circle;
+}
+
+#articles-filter a,
+#articles-filter a:visited {
+	text-decoration: none;
+	color: #ccc;
+}
+
+#articles-filter a:hover {
+	color: #888;
+}
+
+#article-one,
+#article-two,
+#article-three {
+	font-family: "Rosario", sans-serif;
+	height: 210px;
+}
+
+#article-one {
+	margin-top: 2em;
+}
+
+.article-description h3,
+.date-category {
+	color: #ff60ba;
+}
+
+.article-description {
+	color: #ccc;
+}
+
+#article-one-picture,
+#article-two-picture,
+#article-three-picture {
+	float: left;
+	width: 25%;
+}
+
+.article-description {
+	float: left;
+	height: 200px;
+	width: 45%;
+}
+
+.article-description a,
+.article-description a:visited {
+	text-decoration: none;
+}
+
+.article-description h3:hover {
+	color: #888;
+}
+
+#article-one-picture img,
+#article-two-picture img {
+	border-radius: 50%;
+}
+
+#article-one-picture img,
+#article-two-picture img,
+#article-three-picture img {
+	width: 70%;
+}
+
+.date-category {
+	font-size: 0.8em;
+}
+
+
+
+
+
+/***********MAIN CONTENT (VIDEOS) **********/
+
+#videos-title,
+#videos h1{
+	color: #ccc;
+	font-family: 'Walter Turncoat', cursive;
+	text-align: center;
+}
+
+.videoTitle {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.25;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 5px 8px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+
+
+
+/***********MAIN CONTENT (FORUM) **********/
+
+#forum-content {
+	width: 960px;
+	height: 600px;
+	margin-top: 2em;;
+}
+
+#forum-actual-forum {
+	width: 70%;
+	height: 580px;
+	float: left;
+}
+
+#forum-picture-filter {
+	width: 28%;
+	height: 450px;
+	float: right;
+}
+
+#forum-content table {
+	color: #ccc;
+	font-family: 'Rosario', sans-serif;
+}
+
+.table-title {
+	background-color: #7df7a1;
+}
+
+.table-title tbody {
+	color: #000;
+}
+	
+.table-data {
+	background-color: #222;
+}
+
+table a,
+table a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #888;
+}
+
+#forum-picture-filter {
+	color: #ccc;
+	font-family: 'Walter Turncoat', cursive;
+}
+
+#forum-picture-filter h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#forum-picture-filter ul {
+	list-style-type: none;
+	font-family: 'Rosario', sans-serif;
+}
+
+#forum-picture-filter li:nth-child(3n+1) {
+	color: #7df7a1;
+}
+
+#forum-picture-filter img {
+	left: 3%;
+	border: 1px solid #7df7a1;
+	border-radius: 2%;
+}
+
+
+
+
+/***********MAIN CONTENT (CONTACT) **********/
+
+#contact-content {
+	margin-top: 2em;
+}
+
+.contact-image-text {
+	width: 30%;
+	height: 500px;
+	float: left;
+}
+
+#contact-form {
+	width: 68%;
+	height: 500px;
+	float: right;
+}
+
+form {
+	background-color: #7acfe8;
+	padding: 2%;
+}
+
+.contact-image-text img {
+	left: 2%;
+	border: 1px solid #7acfe8;
+	border-radius: 2%;
+	max-width: 100%;
+}
+
+.contact-image-text {
+	color: #ccc;
+	font-family: 'Walter Turncoat', cursive;
+}
+
+.contact-image-text h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.contact-image-text ul {
+	font-family: 'Rosario', sans-serif;
+}
+
+.contact-image-text li:nth-child(3n+2) {
+	list-style-type: none;
+}
+input[type="submit"] {
+	border: 1px solid #fff;
+	color: #fff;
+	background: #CE7CFF;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: 0.3s all;
+}
+input[type="submit"]:hover {
+	background-color: #da99ff;
+}
+
+
+/***********FOOTER**********/
+
+footer {
+	width: 960px;
+	height: 30px;
+	color: #ccc;
+	margin: 0 auto;
+}
+
+footer p {
+	text-align: center;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 0.7em;
+}
+
+#footer-articlespage {
+	border-top: 1px solid #ccc;
+}
